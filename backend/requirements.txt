@@ -16,3 +16,5 @@ pypandoc==1.11
 docx2txt==0.8
 guidance==0.0.53
 python-jose==3.3.0
+aiohttp>=3.10.2 # not directly required, pinned by Snyk to avoid a vulnerability
+nltk>=3.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
